@@ -1,4 +1,11 @@
 <div class="dex-watchlist__wrapper">
+    <div class="polarity-banner" ng-hide="$ctrl.hidePolarity">
+        <div class="btn icon-close" ng-click="$ctrl.hidePolarity = true"></div>
+        <div class="text-wrapper">
+            <div class="text" w-i18n="directives.watchlist.polarity.volume"></div>
+            <div class="text" w-i18n="directives.watchlist.polarity.seed"></div>
+        </div>
+    </div>
 
     <div class="titles-wrap">
         <div ng-repeat="tab in $ctrl.tabs track by tab.value"

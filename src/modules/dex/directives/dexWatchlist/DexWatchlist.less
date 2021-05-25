@@ -58,6 +58,37 @@
     }
   }
 
+
+  .polarity-banner.ng-hide {
+    opacity: 0;
+    max-height: 0;
+  }
+
+  .polarity-banner.ng-hide-add,
+  .polarity-banner.ng-hide-remove {
+    transition: all ease-in-out 1s;
+  }
+
+  .polarity-banner {
+    color: #eb3f79;
+    margin: 2%;
+    border: 2px solid @color-basic-100;
+    max-height: 100%;
+
+    .text-wrapper {
+      width: calc(100% ~"- 35px");
+    }
+
+    .text {
+      margin: 2%;
+    }
+
+    .icon-close {
+      top: 5px;
+      right: 5px;
+    }
+  }
+
   .search-input {
     border-bottom-color: @color-basic-100;
 

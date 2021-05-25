@@ -400,6 +400,14 @@
 
             },
 
+            "polarity": {
+
+                "volume": "Looking for more exchange volume on TurtleNetwork? Visit [polarity.exchange](https://polarity.exchange/).",
+
+                "seed": "Your seed can be used on both dexes."
+
+            },
+
             "price": "Price",
 
             "vol": "Vol",
