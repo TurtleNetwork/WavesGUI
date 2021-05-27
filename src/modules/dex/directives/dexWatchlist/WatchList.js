@@ -161,7 +161,7 @@
             /**
              * @type {boolean}
              */
-            _showInactive = false;
+            _showInactive = true;
 
             constructor() {
                 super($scope);
