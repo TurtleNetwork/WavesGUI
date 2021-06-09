@@ -48,7 +48,7 @@
                     scamListUrl: WavesApp.network.scamListUrl,
                     tokensNameListUrl: WavesApp.network.tokensNameListUrl,
                     tradeWithScriptAssets: false,
-                    baseAssetId: WavesApp.defaultAssets.BTC,
+                    baseAssetId: WavesApp.defaultAssets.USDT,
                     events: Object.create(null)
                 };
                 /**

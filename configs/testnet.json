@@ -34,7 +34,8 @@
     "ETH": "2GRJaVYhhQPKVoWQFyJfTfx3eB5DD7CPdG7ZYx3Cs6Mk",
     "WAVES": "3z9tHpm7ZvD3RBTswdc33yQYP4oqkSnzXgLMK4EzFYdV",
     "LTC":"EZehVXn6NC8hZQwkYTGp1Rfyp783fsGK2VAJi6tc9zDC",
-    "TN": "TN"
+    "TN": "TN",
+    "USDT": "C5M8dhh8zF7L3yfB6t9xmj3K5iH9d5WcYTLan1KSnmSX"
   },
   "matcherPriorityList": [
     { "ticker": "BTC", "id": "4bXds5VEHFQth6AhpF1k6rjvNKzaMf1Yz2Wab9pn9msD"},
