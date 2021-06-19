@@ -55,11 +55,6 @@
       "isThirdParty": true,
       "regex": "^0x[a-fA-F0-9]{40}$"
     },
-    "Fr2kNhe7XR3E16W7Mfh7NhNcsQWLXx3hSLjoFgpbFsNj": {
-      "url": "https://bchgw.turtlenetwork.eu",
-      "isThirdParty": false,
-      "regex": "(^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^((bitcoincash:)?(q|p)[a-z0-9]{41})$)"
-    },
    "A62sRG58HFbWUNvFoEEjX4U3txXKcLm11MXWWS429qpN": {
       "url": "https://dashgw.turtlenetwork.eu",
       "isThirdParty": false,
@@ -74,6 +69,15 @@
       "url": "https://ltcgw.turtlenetwork.eu",
       "isThirdParty": false,
       "regex": "^[LM3][a-km-zA-HJ-NP-Z1-9]{26,33}$"
+    },
+    "Fr2kNhe7XR3E16W7Mfh7NhNcsQWLXx3hSLjoFgpbFsNj": {
+      "regex": "(^([13][a-km-zA-HJ-NP-Z1-9]{25,34})|^((bitcoincash:)?(q|p)[a-z0-9]{41})$)",
+      "url": "https://gateway-service.polarity.exchange",
+      "isThirdParty": false,
+      "name": "Bitcoin Cash",
+      "network": "BitcoinCash",
+      "ticker": "BCH",
+      "otherNetwork": "BitcoinCash"
     },
     "7RB3BWayeCVPq3kkpkeJZAFv2DYCB5gEwnutEpRofaw4": {
       "url": "https://gateway-service.polarity.exchange",
