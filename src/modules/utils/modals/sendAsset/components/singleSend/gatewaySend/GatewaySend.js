@@ -139,7 +139,7 @@
                     this.gatewayWrongAddress = false;
 
                     const max = BigNumber.min(
-                        details.maximumAmount.add(details.gatewayFee),
+                        details.maximumAmount.add(details.gatewayFee).add(1),
                         this.balance.getTokens()
                     );
 

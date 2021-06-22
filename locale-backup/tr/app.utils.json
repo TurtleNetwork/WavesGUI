@@ -540,7 +540,7 @@
             "attachmentLength": "Açıklama çok uzun",
             "bankAccount": "Banka hesabı",
             "coinomat": {
-                "feeExplanation": "We detected {{assetName}} address and will send your money through Coinomat gateway to that address. Minimum amount is {{min, BigNumber}} {{assetTicker}}, maximum amount is {{max, BigNumber}} {{assetTicker}}.",
+                "feeExplanation": "We detected {{otherChain}} address and will send your money through Coinomat gateway to that address. Minimum amount is {{min, BigNumber}} {{assetTicker}}, maximum amount is {{max, BigNumber}} {{assetTicker}}.",
                 "feeTitle": "Geçit komisyonu {{fee, BigNumber}} {{assetTicker}}"
             },
             "coinomatLimits": "Minimum $100 USD/EUR, Maksimum $50,000 USD/EUR",

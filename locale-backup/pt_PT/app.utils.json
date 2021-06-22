@@ -540,7 +540,7 @@
             "attachmentLength": "The description is too long",
             "bankAccount": "Bank account",
             "coinomat": {
-                "feeExplanation": "We detected {{assetName}} address and will send your money through Coinomat gateway to that address. Minimum amount is {{min, BigNumber}} {{assetTicker}}, maximum amount is {{max, BigNumber}} {{assetTicker}}.",
+                "feeExplanation": "We detected {{otherChain}} address and will send your money through Coinomat gateway to that address. Minimum amount is {{min, BigNumber}} {{assetTicker}}, maximum amount is {{max, BigNumber}} {{assetTicker}}.",
                 "feeTitle": "Gateway fee is {{fee, BigNumber}} {{assetTicker}}"
             },
             "coinomatLimits": "Minimum $100 USD/EUR, maximum $50,000 USD/EUR",
@@ -578,7 +578,7 @@
             },
             "fee": "Transaction Fee {{fee, money-currency}}",
             "gateway": {
-                "feeExplanation": "We have detected a {{assetName}} address and will send your funds via a gateway to this address. The minimum amount is {{min, BigNumber}} {{assetTicker}}. The maximum amount is {{max, BigNumber}} {{assetTicker}}."
+                "feeExplanation": "We have detected a {{otherChain}} address and will send your funds via a gateway to this address. The minimum amount is {{min, BigNumber}} {{assetTicker}}. The maximum amount is {{max, BigNumber}} {{assetTicker}}."
             },
             "gatewayTerms": {
                 "accept": "Accept and Continue",

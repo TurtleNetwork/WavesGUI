@@ -33,12 +33,20 @@
                      w-i18n="modal.send.coinomat.feeTitle"
                      params="{ fee: $ctrl.gatewayDetails.gatewayFee,
                                assetTicker: $ctrl.balance.asset.displayName }"></div>
-                <div class="footnote-1 basic-500"
+                <div ng-if="$ctrl.balance.asset.displayName !== 'TN'" class="footnote-1 basic-500"
                      w-i18n="modal.send.gateway.feeExplanation"
                      params="{ min: $ctrl.gatewayDetails.minimumAmount,
                                max: $ctrl.gatewayDetails.maximumAmount,
                                assetTicker: $ctrl.balance.asset.displayName,
-                               assetName: $ctrl.balance.asset.name }"></div>
+                               assetName: $ctrl.balance.asset.name,
+                               otherChain: $ctrl.balance.asset.name  }"></div>
+                <div ng-if="$ctrl.balance.asset.displayName === 'TN'" class="footnote-1 basic-500"
+                     w-i18n="modal.send.gateway.feeExplanation"
+                     params="{ min: $ctrl.gatewayDetails.minimumAmount,
+                               max: $ctrl.gatewayDetails.maximumAmount,
+                               assetTicker: $ctrl.balance.asset.displayName,
+                               assetName: $ctrl.balance.asset.name,
+                               otherChain: 'WAVES' }"></div>
             </div>
 
             <div class="plate-warning basic-500">

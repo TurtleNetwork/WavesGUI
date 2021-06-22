@@ -578,7 +578,7 @@
             },
             "fee": "Tehingutasu {{fee, money-currency}}",
             "gateway": {
-                "feeExplanation": "We have detected a {{assetName}} address and will send your funds via a gateway to this address. The minimum amount is {{min, BigNumber}} {{assetTicker}}. The maximum amount is {{max, BigNumber}} {{assetTicker}}."
+                "feeExplanation": "We have detected a {{otherChain}} address and will send your funds via a gateway to this address. The minimum amount is {{min, BigNumber}} {{assetTicker}}. The maximum amount is {{max, BigNumber}} {{assetTicker}}."
             },
             "gatewayTerms": {
                 "accept": "Accept and Continue",
